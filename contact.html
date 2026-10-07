@@ -7,6 +7,7 @@
   <meta name="description" content="Élan Fitness, salle de sport à Casablanca : musculation, yoga, cardio et boxe fitness avec des coachs diplômés. Réservez votre cours d'essai gratuit.">
 
   <title>Élan Fitness | Contact</title>
+  <link rel="icon" type="image/x-icon" href="/img/logo.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +25,7 @@
 
     <div class="conteneur en-tete-contenu">
 
-      <a href="index.html" class="logo">Élan Fitness</a>
+      <a href="index.html" class="logo">Élan Fitness <img class="imgL" src="img/logo.png" alt=""></a>
 
       <nav aria-label="Navigation principale">
 
@@ -83,32 +84,26 @@
 
           <form>
             <div class="champ">
+              <input type="text" id="nom" name="nom" placeholder=" " required>
               <label for="nom">Nom</label>
-              <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
             </div>
 
 
             <div class="champ">
+              <input type="email" id="email"name="email" placeholder=" " required>              
               <label for="email">Email</label>
-              <input type="email" id="email"name="email" placeholder="votre@email.com" required>
             </div>
 
 
             <div class="champ">
+              <input type="tel" id="telephone" name="telephone" placeholder=" " required>
               <label for="telephone">Téléphone</label>
-              <input type="tel" id="telephone" name="telephone" placeholder="06 XX XX XX XX">
             </div>
 
 
             <div class="champ">
-              <label for="sujet">Sujet</label>
-              <input type="text" id="sujet" name="sujet" placeholder="Sujet de votre message">
-            </div>
-
-
-            <div class="champ">
+              <textarea id="message" name="message" rows="6" placeholder=" " required></textarea>
               <label for="message">Message</label>
-              <textarea id="message" name="message" rows="6" placeholder="Votre message"required></textarea>
             </div>
 
             <button type="submit" class="bouton bouton-principal">Envoyer le message</button>
@@ -124,7 +119,7 @@
           <div class="information">
             <h3>Adresse</h3>
             <p>12 rue des Palmiers<br>
-              20000 Casablanca</p>
+              Casablanca</p>
           </div>
 
 
@@ -150,23 +145,6 @@
       </div>
 
     </section>
-
-    <section class="section section-blanche">
-
-      <div class="conteneur">
-
-        <div class="carte-map">
-          <div class="map-placeholder">
-            <p>Plan d'accès — Élan Fitness</p>
-            <p>12 rue des Palmiers, Casablanca</p>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
 
   </main>
 

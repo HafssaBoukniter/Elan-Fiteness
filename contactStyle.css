@@ -16,14 +16,8 @@
 }
 
 .champ {
+  position: relative;
   margin-bottom: 20px;
-}
-
-.champ label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
-  color: #0F1B2D;
 }
 
 .champ input,
@@ -37,23 +31,73 @@
   background-color: #FFFFFF;
   border: 1px solid #D1D5DB;
   border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
 }
+
+.champ label {
+  position: absolute;
+  left: 10px;
+  padding: 0 5px;
+  color: #777;
+  background: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.champ input + label {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.champ input:focus {
+  outline: 3px solid rgba(255, 107, 44, 0.25);
+  border-color: #FF6B2C;
+}
+
+.champ input:focus + label,
+.champ input:not(:placeholder-shown) + label {
+  top: 0;
+  font-size: 12px;
+  color: #FF6B2C;
+  transform: translateY(-50%);
+}
+
+
 
 .champ textarea {
   min-height: 150px;
   resize: vertical;
+  padding-top: 18px;
 }
+
+.champ textarea + label {
+  top: 20px;
+  transform: translateY(-50%);
+}
+
+.champ textarea:focus {
+  outline: 3px solid rgba(255, 107, 44, 0.25);
+  border-color: #FF6B2C;
+}
+
+.champ textarea:focus + label,
+.champ textarea:not(:placeholder-shown) + label {
+  top: 0;
+  font-size: 12px;
+  color: #FF6B2C;
+  transform: translateY(-50%);
+}
+
 
 .champ input::placeholder,
 .champ textarea::placeholder {
   color: #6B7280;
 }
 
-.champ input:focus,
-.champ textarea:focus {
-  outline: 3px solid rgba(255, 107, 44, 0.25);
-  border-color: #FF6B2C;
-}
+
 
 .information {
   padding: 20px 0;
@@ -72,29 +116,4 @@
 .information p {
   color: #4B5563;
   line-height: 1.6;
-}
-
-.carte-map {
-  width: 100%;
-}
-
-.map-placeholder {
-  min-height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 32px;
-  background-color: #E5E7EB;
-  border-radius: 12px;
-  text-align: center;
-  color: #4B5563;
-}
-
-.map-placeholder p:first-child {
-  font-family: 'Poppins', Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: #0F1B2D;
 }
