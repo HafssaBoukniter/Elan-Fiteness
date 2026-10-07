@@ -1,73 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Élan Fitness, salle de sport à Casablanca : musculation, yoga, cardio et boxe fitness avec des coachs diplômés. Réservez votre cours d'essai gratuit.">
 
-    <link rel="stylesheet" href="contactStyle.css">
+  <title>Élan Fitness | Contact</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contactStyle.css">
+
 </head>
+
+
 <body>
-    <header class="en-tete">
-        <div class="conteneur en-tete-contenu">
-            <a href="index.html" class="logo">Élan Fitness</a>
 
-            <nav aria-label="Navigation principale">
-                <ul class="menu">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="apropos.html">À propos</a></li>
-                <li><a href="programmes.html">Programmes</a></li>
-                <li><a href="contact.html" class="lien-actif">Contacts</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="contact" class="section">
+  <header class="en-tete">
+
+    <div class="conteneur en-tete-contenu">
+
+      <a href="index.html" class="logo">Élan Fitness</a>
+
+      <nav aria-label="Navigation principale">
+
+        <ul class="menu">
+
+          <li>
+            <a href="index.html"> Accueil</a>
+          </li>
+          <li>
+            <a href="programmes.html">Programmes</a>
+          </li>
+          <li>
+            <a href="apropos.html">À propos</a>
+          </li>
+          <li>
+            <a href="contact.html" class="lien-actif">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <section class="section section-blanche">
+
       <div class="conteneur">
+
         <div class="section-titre">
-          <h2>Contactez nous</h2>
+
+          <p class="sur-titre">Contactez nous</p>
+
+          <h1>Contactez-nous</h1>
+
+          <p>Une question ? Envie d'un cours d'essai ?
+            Notre équipe est à votre écoute.</p>
+
         </div>
-        <div>
-            <div>
-                <form action="">
-                    <input type="text" name="lname" id="lname" placeholder="Veuillez saisir votre nom...">
-                    <input type="text" name="fname" id="fname" placeholder="Veuillez saisir votre prénom..."><br>
-                    <input type="email" name="mail" id="mail" placeholder="Veuillez saisir votre email..."><br>
-                    <textarea name="message" id="message" placeholder="Veuillez saisir votre email..."></textarea><br>
-                    <input type="submit" value="Envoyer">
-                </form>
-            </div>
-            <img src="" alt="">
-        </div>
+
       </div>
+
     </section>
-    <footer class="pied-de-page">
-        <div class="conteneur">
-            <div class="pied-haut">
-                <div>
-                <p class="logo logo-clair">Élan Fitness</p>
-                <p class="slogan">Ton énergie, ton rythme.</p>
-                </div>
 
-                <nav aria-label="Navigation du pied de page">
-                <ul class="menu menu-pied">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="apropos.html">À propos</a></li>
-                    <li><a href="programmes.html">Programmes</a></li>
-                    <li><a href="contact.html">Contacts</a></li>
-                </ul>
-                </nav>
+    <section class="section">
+
+      <div class="conteneur contact-contenu">
+
+        <div class="contact-formulaire">
+
+          <h2>Envoyez-nous un message</h2>
+
+          <form>
+            <div class="champ">
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
             </div>
 
-            <div class="pied-bas">
-                <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
-                <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
+
+            <div class="champ">
+              <label for="email">Email</label>
+              <input type="email" id="email"name="email" placeholder="votre@email.com" required>
             </div>
+
+
+            <div class="champ">
+              <label for="telephone">Téléphone</label>
+              <input type="tel" id="telephone" name="telephone" placeholder="06 XX XX XX XX">
+            </div>
+
+
+            <div class="champ">
+              <label for="sujet">Sujet</label>
+              <input type="text" id="sujet" name="sujet" placeholder="Sujet de votre message">
+            </div>
+
+
+            <div class="champ">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Votre message"required></textarea>
+            </div>
+
+            <button type="submit" class="bouton bouton-principal">Envoyer le message</button>
+
+          </form>
+
         </div>
-    </footer>
+
+        <div class="contact-informations">
+
+          <h2>Nos coordonnées</h2>
+
+          <div class="information">
+            <h3>Adresse</h3>
+            <p>12 rue des Palmiers<br>
+              20000 Casablanca</p>
+          </div>
+
+
+          <div class="information">
+            <h3>Téléphone</h3>
+            <p>05 15 65 45 78</p>
+          </div>
+
+
+          <div class="information">
+            <h3>Email</h3>
+            <p>contact@elan-fitness.ma</p>
+          </div>
+
+
+          <div class="information">
+            <h3>Horaires</h3>
+            <p>Lundi – Vendredi : 06h00 – 22h00<br>
+              Samedi – Dimanche : 08h00 – 20h00</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="section section-blanche">
+
+      <div class="conteneur">
+
+        <div class="carte-map">
+          <div class="map-placeholder">
+            <p>Plan d'accès — Élan Fitness</p>
+            <p>12 rue des Palmiers, Casablanca</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <footer class="pied-de-page">
+    <div class="conteneur">
+
+      <div class="pied-haut">
+        <div>
+          <p class="logo logo-clair">Élan Fitness</p>
+          <p class="slogan">Ton énergie, ton rythme.</p>
+        </div>
+
+        <nav aria-label="Navigation du pied de page">
+          <ul class="menu menu-pied">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="programmes.html">Programmes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="pied-bas">
+        <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+        <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
+      </div>
+
+    </div>
+  </footer>
+
+
 </body>
 </html>

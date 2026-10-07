@@ -1,0 +1,100 @@
+.contact-contenu {
+  display: flex;
+  gap: 64px;
+  align-items: flex-start;
+}
+
+.contact-formulaire,
+.contact-informations {
+  flex: 1;
+}
+
+.contact-formulaire h2,
+.contact-informations h2 {
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+
+.champ {
+  margin-bottom: 20px;
+}
+
+.champ label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #0F1B2D;
+}
+
+.champ input,
+.champ textarea {
+  width: 100%;
+  padding: 14px 16px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1F2937;
+  background-color: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+}
+
+.champ textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.champ input::placeholder,
+.champ textarea::placeholder {
+  color: #6B7280;
+}
+
+.champ input:focus,
+.champ textarea:focus {
+  outline: 3px solid rgba(255, 107, 44, 0.25);
+  border-color: #FF6B2C;
+}
+
+.information {
+  padding: 20px 0;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.information:first-of-type {
+  padding-top: 0;
+}
+
+.information h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.information p {
+  color: #4B5563;
+  line-height: 1.6;
+}
+
+.carte-map {
+  width: 100%;
+}
+
+.map-placeholder {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 32px;
+  background-color: #E5E7EB;
+  border-radius: 12px;
+  text-align: center;
+  color: #4B5563;
+}
+
+.map-placeholder p:first-child {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0F1B2D;
+}
