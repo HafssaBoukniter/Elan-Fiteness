@@ -541,3 +541,42 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+
+
+/*phone*/
+@media (max-width : 767px){
+  .hero-contenu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .boutons{
+    justify-content: center;
+  }
+
+  .cartes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .apropos-contenu {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    flex-direction: column;
+  }
+  .pied-haut {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    flex-direction: column;
+  }
+
+  .pied-bas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+} 
