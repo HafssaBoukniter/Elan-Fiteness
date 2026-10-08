@@ -2,11 +2,12 @@
   Élan Fitness
   
 # Description
+Site web responsive développé en HTML5 et CSS3, avec un design moderne et une interface adaptée aux ordinateurs, tablettes et téléphones.
   
 ## Pages OverView
   Acceil (index.html) 
   Programmes (programmes.html)
-  A propos (a-propos.html)
+  A propos (apropos.html)
   Contact (contact.html)
 
   ## Technologies
