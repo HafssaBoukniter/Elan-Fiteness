@@ -29,25 +29,30 @@
 
       <a href="index.html" class="logo">Élan Fitness <img class="imgL" src="img/logo.png" alt=""></a>
 
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu-principal"> 
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <nav aria-label="Navigation principale">
-
-        <ul class="menu">
-
+        <ul class="menu" id="menu-principal">
           <li>
-            <a href="index.html"> Accueil</a>
+            <a href="index.html">Accueil</a>
           </li>
+
           <li>
             <a href="programmes.html">Programmes</a>
           </li>
+
           <li>
             <a href="apropos.html">À propos</a>
           </li>
+
           <li>
             <a href="contact.html" class="lien-actif">Contact</a>
           </li>
-
         </ul>
-
       </nav>
 
     </div>
@@ -172,6 +177,11 @@
     </div>
   </footer>
 
+  <script>
+    const burger = document.querySelector('.burger');
+    const menu = document.querySelector('#menu-principal');
+    burger.addEventListener('click', () => menu.classList.toggle('ouvert'));
+  </script>
 
 </body>
 </html>

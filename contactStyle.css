@@ -118,24 +118,176 @@
   line-height: 1.6;
 }
 
-/*phone*/
-@media (max-width : 767px){
-  .contact-contenu {
-    display: flex;
-    gap: 64px;
-    align-items: center;
-    flex-direction: column;
-  }
-  .pied-haut {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-    flex-direction: column;
+
+/* pOrdinateur */
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+  .conteneur {
+    padding: 0 32px;
   }
 
-  .pied-bas {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  .contact-contenu {
+    gap: 40px;
   }
+
+  .contact-formulaire h2,
+  .contact-informations h2 {
+    font-size: 26px;
+    margin-bottom: 28px;
+  }
+
+}
+
+/* tab */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .conteneur {
+    padding: 0 24px;
+  }
+
+  .contact-contenu {
+    gap: 24px;
+  }
+
+  .contact-formulaire,
+  .contact-informations {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .contact-formulaire h2,
+  .contact-informations h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .champ input,
+  .champ textarea {
+    font-size: 15px;
+  }
+
+  .information h3 {
+    font-size: 17px;
+  }
+
+  .information p {
+    font-size: 15px;
+    overflow-wrap: anywhere;
+  }
+
+}
+
+/* phone */
+@media (max-width: 767px) {
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  .conteneur {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+
+  .contact-contenu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 40px;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .contact-formulaire,
+  .contact-informations {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    flex: 1 1 100%;
+    box-sizing: border-box;
+  }
+
+  .contact-formulaire h2,
+  .contact-informations h2 {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 24px;
+  }
+
+  .champ {
+    width: 100%;
+    min-width: 0;
+    margin-bottom: 20px;
+  }
+
+  .champ input,
+  .champ textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  .champ input {
+    padding: 14px 12px;
+  }
+
+  .champ textarea {
+    min-height: 150px;
+    padding: 18px 12px;
+  }
+
+  .champ label {
+    max-width: calc(100% - 30px);
+    overflow-wrap: anywhere;
+  }
+
+  .champ input + label {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .champ input:focus + label,
+  .champ input:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 12px;
+    transform: translateY(-50%);
+  }
+
+  .champ textarea + label {
+    top: 20px;
+    transform: translateY(-50%);
+  }
+
+  .champ textarea:focus + label,
+  .champ textarea:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 12px;
+    transform: translateY(-50%);
+  }
+
+  .information {
+    padding: 18px 0;
+    min-width: 0;
+  }
+
+  .information h3 {
+    font-size: 17px;
+    margin-bottom: 8px;
+  }
+
+  .information p {
+    font-size: 15px;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+  }
+
 }
