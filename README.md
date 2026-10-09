@@ -1,27 +1,31 @@
-# Project Title
-  Élan Fitness
+# Élan Fitness
   
 # Description
-Site web responsive développé en HTML5 et CSS3, avec un design moderne et une interface adaptée aux ordinateurs, tablettes et téléphones.
+Élan Fitness est un site web responsive dédié au fitness, présentant une salle de sport, ses programmes et ses abonnements.
+
+Il est développé avec HTML5, CSS3 et JavaScript pour la navigation mobile.
   
 ## Pages OverView
-  Acceil (index.html)  Présentation de la salle Élan Fitness, ses avantages et ses services
-  Programmes (programmes.html) Présentation des activités sportives et des formules d’abonnement avec leurs pri
-  A propos (apropos.html) Présentation de la mission, des valeurs et de l’équipe de la salle
-  Contact (contact.html) Formulaire de contact, coordonnées et horaires d’ouverture
+  Accueil (index.html) : Présentation de la salle de sport, de ses services et de ses avantages.
+  Programmes (programmes.html) : Présentation des activités sportives et des formules d’abonnement.
+  À propos (apropos.html) : Présentation de la mission, des valeurs et de l’équipe de la salle de sport.
+  Contact (contact.html) : Formulaire de contact, coordonnées et horaires d’ouverture.
 
 ## Trello
   https://trello.com/b/ZVIN9Sed/elan-fiteness-brief
 
-  ## Technologies
+## Live Demo
+  test-hafssa1.vercel.app
+
+## Technologies
     HTML5 
-    CSS3 (style.css & contactStyle.css) Mise en forme, couleurs et organisation des éléments
-    JavaScript Gestion du menu de navigation mobile
-    Responsive design Adaptation du site aux différents écrans
-    SEO Optimisation des titres, descriptions et structure HTML
-    git & GitHub Gestion des versions et hébergement du code source
+    CSS3 (style.css & contactStyle.css)
+    JavaScript
+    Responsive
+    SEO
+    git & GitHub
     
-  ## Getting Started
+  ## Installation et lancement
 
   1. **Clone the repository**
      
