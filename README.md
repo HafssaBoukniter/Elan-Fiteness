@@ -8,6 +8,7 @@ Il est développé avec HTML5, CSS3 et JavaScript pour la navigation mobile.
 ## Pages OverView
   Accueil (index.html) : Présentation de la salle de sport, de ses services et de ses avantages.
   Programmes (programmes.html) : Présentation des activités sportives et des formules d’abonnement.
+  
   À propos (apropos.html) : Présentation de la mission, des valeurs et de l’équipe de la salle de sport.
   Contact (contact.html) : Formulaire de contact, coordonnées et horaires d’ouverture.
 
