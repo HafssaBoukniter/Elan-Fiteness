@@ -949,4 +949,8 @@ button:focus-visible {
     text-align: center;
   }
 
+  .pied-de-page .menu{
+    display: none;
+  }
+
 }
