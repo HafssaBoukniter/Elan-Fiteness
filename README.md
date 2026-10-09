@@ -18,7 +18,7 @@ Il est développé avec HTML5, CSS3 et JavaScript pour la navigation mobile.
   https://trello.com/b/ZVIN9Sed/elan-fiteness-brief
 
 ## Live Demo
-  test-hafssa1.vercel.app
+  https://test-git-main-hafssa1.vercel.app/
 
 ## Technologies
     HTML5 
