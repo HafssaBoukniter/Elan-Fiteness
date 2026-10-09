@@ -13,6 +13,7 @@ Site web responsive développé en HTML5 et CSS3, avec un design moderne et une 
   ## Technologies
     HTML5
     CSS3
+    JS
     Responsive design
     SEO
     git
