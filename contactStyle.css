@@ -152,7 +152,6 @@
   .contact-formulaire,
   .contact-informations {
     flex: 1;
-    min-width: 0;
   }
 
   .contact-formulaire h2,
@@ -183,14 +182,11 @@
   html,
   body {
     width: 100%;
-    max-width: 100%;
     overflow-x: clip;
   }
 
   .conteneur {
     width: 100%;
-    max-width: 100%;
-    min-width: 0;
     padding-left: 16px;
     padding-right: 16px;
     box-sizing: border-box;
@@ -202,14 +198,11 @@
     align-items: stretch;
     gap: 40px;
     width: 100%;
-    min-width: 0;
   }
 
   .contact-formulaire,
   .contact-informations {
     width: 100%;
-    max-width: 100%;
-    min-width: 0;
     flex: 1 1 100%;
     box-sizing: border-box;
   }
@@ -223,15 +216,12 @@
 
   .champ {
     width: 100%;
-    min-width: 0;
     margin-bottom: 20px;
   }
 
   .champ input,
   .champ textarea {
     width: 100%;
-    max-width: 100%;
-    min-width: 0;
     box-sizing: border-box;
     font-size: 16px;
   }
@@ -246,7 +236,6 @@
   }
 
   .champ label {
-    max-width: calc(100% - 30px);
     overflow-wrap: anywhere;
   }
 
